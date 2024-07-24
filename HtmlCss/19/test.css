@@ -1,0 +1,13 @@
+.color1 , .color2{
+    background-color: rgba(red, green, blue, 0.7);
+    color: rgb(red, green, blue);
+
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.align1 , .p4{
+    border: 1px;
+    border-color: black;
+    border-style: dotted;
+    text-align: center;
+}

@@ -1,0 +1,12 @@
+.color1 , .color2{
+    background-color: antiquewhite;
+    color: brown;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.align1 , .p4{
+    border: 1px;
+    border-color: black;
+    border-style: dotted;
+    text-align: center;
+}
