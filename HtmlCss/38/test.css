@@ -1,20 +1,14 @@
-.link-google{
-    color: black;
-    font-family: sans-serif;
-    border: 1px solid black;
-    padding: 5px;
-    border-radius: 3px;
 
+div{
+    margin: 10px;
 }
-.link-google:hover {
-    background-color: rgb(215, 214, 214);
-    
-}
-.link-google:active {
-    background-color: rgb(105, 105, 105);
-    
-}
-.link-google:visited {
-    color: blueviolet;
-    
+.backToTop{
+
+    border: 2px solid black;
+    margin: 10px;
+    padding: 5px;
+    text-decoration: none;
+    font-family: sans-serif;
+    color: black;
+    scroll-behavior: smooth;
 }

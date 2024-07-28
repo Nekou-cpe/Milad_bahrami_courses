@@ -1,0 +1,6 @@
+/*list-style->short hand for under order*/
+ul{
+    list-style-type: none;
+    list-style-image: url('fb.png');
+    list-style-position:inherit;
+}

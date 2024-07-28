@@ -1,0 +1,28 @@
+/*shadow project*/
+body{
+    background-color: rgb(168, 206, 230);
+    margin: 0;
+}
+.head{
+    margin: 100px auto 0px auto ;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 2px solid black;
+    box-shadow: 50px 0 ,
+    25px 30px rgb(255, 149, 0) , 
+    0px 55px 0 -2px,
+    10px 60px 0 -2px,
+    20px 60px 0 -2px,
+    30px 60px 0 -2px,
+    40px 60px 0 -2px,
+    50px 55px 0 -2px,
+    30px 120px 0 3px,
+    30px 150px 0 3px,
+    30px 180px 0 3px,
+    25px 25px 0 60px white,
+    25px 170px 0 100px white,
+    0px 500px 0 300px rgb(61, 44, 44);
+    background-color: rgb(0, 0, 0);
+    
+}

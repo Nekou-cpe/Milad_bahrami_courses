@@ -1,0 +1,4 @@
+/*shadow ->1-text box*/
+p{
+    text-shadow: 10px 10px 5px red,-10px -10px 3px blue;
+}
