@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'niko';
+    src: url('../fonts/lalezar.woff'), url('../fonts/lalezar.ttf');
+}
+p{
+    font-size: 80px;
+    font-family: niko;
+}
