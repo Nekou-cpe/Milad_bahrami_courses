@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(228, 183, 242);
+}
+ul{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 300px;
+    height: 500px;
+    z-index: 2;
+    background-color: rgb(228, 183, 242);
+    right: 30%;
+    top: 200px;
+    list-style-type: none;
+    border-radius: 10px 40px;
+    box-shadow: 1px -1px 10px 1px rgb(103, 103, 103);
+    overflow: hidden;
+}
+ul img{
+    width: 300px;
+    height: 300px;
+}
+ul p{
+    padding-left:10px ;
+}
+ul p:hover{
+    color: white;
+}
+ul span{
+    padding-left:10px ;
+    font-size: 20px;
+
+}
+.pharagraph{
+    padding-right: 350px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    width: 420px;
+    height: 500px;
+    background-color: brown;
+    z-index: 1;
+    border-radius: 10px 40px;
+    box-shadow: 1px -1px 10px 1px rgb(103, 103, 103);
+    background-color: rgb(228, 183, 242);
+    position: absolute;
+    right: 28%;
+    top: 250px;
+}
