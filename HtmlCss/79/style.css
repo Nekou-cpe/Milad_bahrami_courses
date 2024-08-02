@@ -1,0 +1,25 @@
+.header{
+    height: 100px;
+    background-color: red;
+
+}
+.container{
+    height: 400px;
+    background-color: gray;
+}
+.left{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(48, 89, 155);
+    float: left;
+}
+.right{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(212, 171, 171);
+    float: right;
+}
+.footer{
+    height: 100px;
+    background-color: red;
+}
