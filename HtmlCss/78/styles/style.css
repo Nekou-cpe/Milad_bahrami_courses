@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Code Pro';
+}
+.header{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    height: 80px;
+}
+.header .left{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    left: 0;
+}
+
+.header .left .profile{
+    position: absolute;
+    width: 15%;
+    height: 100%;
+    left:0;
+}
+.header .left .profile img{
+    padding-top: 15px;
+    padding-left: 10px;
+}
+.header .left .title{
+    position: absolute;
+    width: 85%;
+    height: 100%;
+    right:0;
+    
+}
+.header .left .title ul{
+    list-style-type:none ;
+    display: inline-block;
+}
+.header .left .title li{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 15px 15px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.header .left .title li:hover{
+    background-color: #04aa6d;
+}
+.header .right{
+    position: absolute;
+    width: 34%;
+    height: 100%;
+
+    right:0;
+}
+.header .right .title{
+    display: inline-block;
+    list-style-type: none;
+
+}
+.header .right .title li{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 15px 15px;
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+.header .right .title li:hover{
+    background-color: #04aa6d;
+}
+.header .right .title .log{
+    background-color: #04aa6d;
+    margin-left: 30px;
+    border-radius: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.section1{
+    height: 700px;
+    position: relative;
+    background-color: #282a35;
+    font-weight: bold;
+}
+.section1 .left{
+    padding-top: 200px;
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    left: 0;
+    text-align: center;
+    color: #ffffff;
+}
+.section1 .left h1{
+    font-size: 100px;
+}
+.section1 .left p{
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 20px;
+}
+.section1 .left .learn{
+    display: inline-block;
+    background-color: #04aa6d;
+    border-radius: 40px;
+
+    padding:10px 50px;
+}
+.section1 .left .ref{
+    display: inline-block;
+    background-color: #ffffff;
+    border-radius: 40px;
+    color: #000;
+
+    padding:10px 50px;
+}
+.section1 .right{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background-color: rgb(206, 113, 113);
+    right: 0;
+}
+
+
