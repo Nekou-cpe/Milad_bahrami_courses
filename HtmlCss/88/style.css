@@ -1,0 +1,19 @@
+ul{
+    width: 150px;
+    height: 200px;
+    overflow: auto;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+}
+li:nth-child(even){
+    background-color: green;
+}
+li:hover{
+    background-color: rgb(133, 133, 133);
+}

@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+}
+.container::before{
+    display: block;
+    content:"before";
+    height: 100px;
+    background-color: red;
+}
+.hello{
+
+    height: 200px;
+    background-color: yellow;
+}
+.container::after{
+    display: block;
+    content: "after";
+    height: 100px;
+    background-color: red;
+}

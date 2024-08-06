@@ -1,0 +1,5 @@
+/*Only MP4, WebM, and Ogg video are supported by the HTML standard.
+audio:MP3, WAV, and OGG*/
+video{
+    width: 400px;
+}

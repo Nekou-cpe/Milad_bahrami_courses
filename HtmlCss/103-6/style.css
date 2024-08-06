@@ -1,0 +1,71 @@
+/*
+1-Linear Gradients (goes down/up/left/right/diagonally)
+2-Radial Gradients (defined by their center)
+3-Conic Gradients (rotated around a center point)*/
+.gradiant1{
+    height: 100px;
+    background-color: rgb(96, 129, 176);
+    background-image: linear-gradient(to right,rgb(96, 129, 176),rgb(139, 89, 143));
+
+}
+p{
+    text-align: center;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.gradiant2{
+    height: 100px;
+    background-color: rgb(96, 129, 176);
+    background-image: linear-gradient(rgb(96, 129, 176),rgb(139, 89, 143));
+
+}
+.gradiant3{
+    height: 100px;
+    background-color: rgb(96, 129, 176);
+    background-image: linear-gradient(to bottom left,rgb(96, 129, 176),rgb(139, 89, 143));
+
+}
+.gradiant4{
+    height: 100px;
+    background-color: rgb(96, 129, 176);
+    background-image: linear-gradient(to right top,rgb(96, 129, 176),rgb(139, 89, 143));
+
+}
+#grad1 {
+    height: 100px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(0deg, red, yellow);
+  }
+  
+#grad2 {
+    height: 100px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(90deg, red, yellow);
+  }
+  
+#grad3 {
+    height: 100px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(180deg, red, yellow);
+  }
+  
+#grad4 {
+    height: 100px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(-90deg, red, yellow);
+  }
+#grad5 {
+    height: 100px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+  } 
+#grad6 {
+    height: 200px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: repeating-linear-gradient(red, yellow 10%, green 20%);
+  }
+/*Transparency*/
+#grad7{
+    height: 100px;
+    background-image: linear-gradient(to right,rgb(188, 78, 215,1),rgb(188, 78, 215,0));
+}

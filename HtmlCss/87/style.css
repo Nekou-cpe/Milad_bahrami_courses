@@ -1,0 +1,22 @@
+
+table{
+    width: 400px;
+    height: 500px;
+    border: 2px solid black;
+    border-collapse: collapse;
+
+}
+th,td{
+    border: 2px solid black;
+}
+th{
+    background-color: green;
+    color: white;
+    text-align: center;
+}
+tr:nth-child(even){
+    background-color: rgb(194, 194, 194);
+}
+td:hover{
+    background-color: rgb(162, 172, 86);
+}

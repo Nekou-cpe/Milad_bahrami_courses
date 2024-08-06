@@ -1,0 +1,55 @@
+
+div{
+    height: 400px;
+    background-color: rgb(215, 215, 215);
+    padding: 20px;
+    margin: 100px;
+    border-radius: 10px;
+}
+input[type=search]{
+    display: block;
+    width:100px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url(s1.png);
+    background-position: -7px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 60px;
+    transition: width 0.4s ease-in-out;
+    margin-bottom: 20px;
+}
+input[type=search]:focus{
+    width: 100%;
+}
+input[type=text],select{
+    margin: 5px 0;
+    width: 95%;
+    height: 50px;
+    border: 1px solid rgb(178, 178, 178);
+    border-radius: 10px;
+    box-shadow: 1px -1px 1px -1px rgb(178, 178, 178);
+}
+input[type=text]:focus{
+    background-color: aqua;
+}
+select:focus{
+    background-color: aqua;
+}
+input[placeholder]{
+    padding-left: 5px;
+}
+input[type=submit]{
+    margin: 5px 0;
+    width: 95%;
+    height: 50px;
+    border: 1px solid rgb(178, 178, 178);
+    border-radius: 10px;
+    box-shadow: 1px -1px 1px -1px rgb(178, 178, 178);
+    background-color: aqua;
+}
+input[type=submit]:hover{
+    background-color: rgba(9, 242, 242, 0.959);
+}
