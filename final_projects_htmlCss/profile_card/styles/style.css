@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(208, 180, 234);
+}
+.profile-card{
+    position: relative;
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    border-radius: 20px;
+}
+.photo{
+    display: inline-block;
+    background-color: blueviolet;
+}
+.photo img{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border: 3px solid rgb(233, 102, 233) ;
+    border-radius: 50%;
+    padding: 5px;
+}
