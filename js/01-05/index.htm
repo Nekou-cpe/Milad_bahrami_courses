@@ -1,4 +1,9 @@
-<!-- -->
+<!-- output
+ 1- inner html
+ 2- document.write()
+ 3- window.alert()
+ 4-console.log()
+ -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,6 +16,20 @@
 <body>
     <h1 id="demo">next1 code</h1>
     <button onclick="document.getElementById('demo').innerHTML='hello world'">click on</button>
+    <br>
+    <h2>document write:</h2>
+    <button type="button" onclick="document.write(5+6)">
+        try it
+    </button>
+    <br>
+    <h2>document write:</h2>
+    <button type="button" onclick="document.alert(5+6)">
+        try it
+    </button>
+    <script>
+        console.log('hello world')
+    </script>
+    
     
 </body>
 </html>

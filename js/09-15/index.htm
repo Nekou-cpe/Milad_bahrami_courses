@@ -1,0 +1,57 @@
+<!--data types
+1-number
+2-string
+3-boolean
+4-empty=null
+5-undifined
+6-object
+7-bigin
+8-arrays -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="output.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <p id="varp">
+
+    </p>
+    <p id="letp">
+
+    </p>
+    <p id="const">
+
+    </p>
+    <script>
+        //var
+        var x=10,y=9,z;
+        z=x+y;
+        document.getElementById('varp').innerHTML=z;
+        //let
+        let m=9,n=8,k;
+        k=m-n;
+        document.getElementById('letp').innerHTML=k;
+        /*const ->cant cahnged but object or array can change inside
+        Change the elements of constant array
+        Change the properties of constant object
+        */
+       //array
+        const car=['a','b','c'];
+        car[1]='bmw';
+        document.getElementById('const').innerHTML=car;
+        //object
+        const person = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};
+        
+        // Value is undefined, type is undefined
+        let car;    
+        
+        
+        
+    </script>
+    
+</body>
+</html>
