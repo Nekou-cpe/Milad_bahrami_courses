@@ -34,8 +34,15 @@ let power=function(num22,num33){
     return num22**num33;
 }
 //callback function
-
+function firstfunc(callback,number){
+    callback()
+    console.log('first function',number);
+}
+function secondfunc(callback){
+    console.log('second function');
+}
 console.log(sum(2,4,5,7,57,9,98));
 console.log(defun(2,3));
 console.log(rangeprim(7,80))
 console.log(power(2,3))
+firstfunc(secondfunc,3);
